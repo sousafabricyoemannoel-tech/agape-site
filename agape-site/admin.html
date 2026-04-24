@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Admin</title>
+</head>
+<body>
+
+<h1>Painel Administrativo</h1>
+
+<input id="nome" placeholder="Nome do produto">
+<input id="preco" placeholder="Preço">
+<input type="file" id="imagem">
+
+<button onclick="salvar()">Salvar</button>
+
+<script>
+function salvar() {
+  const nome = document.getElementById("nome").value;
+  const preco = document.getElementById("preco").value;
+
+  alert("Produto atualizado (simulação)");
+
+  // depois dá pra conectar com Firebase e salvar de verdade
+}
+</script>
+
+</body>
+</html>
